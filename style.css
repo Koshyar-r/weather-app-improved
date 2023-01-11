@@ -465,6 +465,11 @@ button.animate::after {
 .search__input.active .autosuggest__box li {
     display: block;
 }
+@media (min-width: 320px) and (max-width: 1024px) {
+    .container.active {
+        margin-top: 3rem;
+    }
+}
 @media (max-width: 429px) {
     .container {
         width: 95vw;
